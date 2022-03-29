@@ -26,8 +26,5 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 
-
-    //logbackのインストール
-    implementation 'ch.qos.logback:logback-classic:1.1.3'
 }
 
