@@ -1,10 +1,16 @@
-# logback
+# Logback
 
-## 課題
+## 概要
+### 課題
 - practice1: デフォルト設定で使ってみよう (20min)
 - practice2: logback.xmlで設定を変更してみよう (40min)
 
-## logbackのインポート
+### ゴール
+- Logbackの基本的な使い方がわかる
+- logback.xmlを使って設定の変更ができる
+
+
+## Logbackのインポート
 `build.gradle`の`dependencies`に以下を追加する
 ```xml
 dependencies {
