@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- *logback.xmlを編集し、Hogeクラスのみデバッグレベルをtraceにしましょう（デフォルトはinfo）
+ *src/main/resources/logback.xmlを作成し、Hogeクラスのみデバッグレベルをtraceにしましょう（デフォルトはinfo）
  */
 public class Hoge {
 	private static final Logger logger = LoggerFactory.getLogger(Hoge.class);

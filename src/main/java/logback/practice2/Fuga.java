@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- *logback.xmlを編集し、Fugaクラスのみファイル出力にしましょう
+ *src/main/resources/logback.xmlを作成し、Fugaクラスのみファイル出力にしましょう
  */
 public class Fuga {
 	private static final Logger logger = LoggerFactory.getLogger(Fuga.class);
