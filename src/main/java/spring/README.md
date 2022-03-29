@@ -25,8 +25,8 @@ dependencies {
 
 ## practice1: ApplicationContext
 ### 最初の状態
-- Main クラスと、Mainクラスから呼ばれるHogeクラスがあります。
-- mainメソッドを実行すると、Hogeクラスのメソッドhoge()が呼ばれ、consoleに"hoge called"が出力されます
+- Main クラス(`src/main/java/spring/practice1/Main.java`)と、Mainクラスから呼ばれるHogeクラス(`src/main/java/spring/practice1/Hoge.java`)があります。
+- mainメソッドを実行すると、Hogeクラスのhoge()が呼ばれ、consoleに"hoge called"が出力されます
 
 ### Springを通してインスタンスを作成する
 1. `src/main/resources`に`applicationContext.xml`を以下の通り作成する
