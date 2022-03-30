@@ -2,8 +2,8 @@
 
 ## 課題一覧
 
-- [ApplicationContext](src/main/java/spring/practice1/README.md)　(1h)
-- [ComponentScanを使ってみよう](src/main/java/spring/practice2/README.md) (45min)
+- [ApplicationContext](https://github.com/ikarashi-r/library-dojo/blob/82946307eebfe7b7a80486f4e3acea2faa8761bf/src/main/java/spring/practice1/README.md)　(1h)
+- [ComponentScanを使ってみよう](https://github.com/ikarashi-r/library-dojo/blob/82946307eebfe7b7a80486f4e3acea2faa8761bf/src/main/java/spring/practice2/README.md) (45min)
 
 - JdbcDaoSupport
 
