@@ -5,7 +5,7 @@
 - インターフェースを実装してQualifierタグを使う
 
 ## 最初の状態
-- MainCs クラス(`src/main/java/spring/practice2/MainCs.java`)と、Mainクラスから呼ばれるHogeCsクラス(`src/main/java/spring/practice2/HogeCs.java`)があります。
+- MainCs クラス(`src/main/java/spring/practice2/MainCs.java`)と、Mainクラスから呼ばれるHogeCsクラス(`src/main/java/spring/practice2/HogeCs.java`)があります
 - mainメソッドを実行すると、HogeCsクラスのhoge()が呼ばれ、consoleに"hoge called"が出力されます
 
 
@@ -112,11 +112,11 @@ public class MockHogeCs implements IHogeCs {
 }
 ```
 
-この段階でmainメソッドを実行すると、consoleに"hoge called"が2回出力されます。
-これを、`fuga.getHoge().hoge();` では"mockhoge called"が出力されるように修正します。
+この段階でmainメソッドを実行すると、consoleに"hoge called"が2回出力されます
+これを、`fuga.getHoge().hoge();` では"mockhoge called"が出力されるように修正します
 
 
-2. `@Qualifier`を使う
+3. `@Qualifier`を使う
 
 `@Qualifier` を使うと、セットするインスタンスをbean名で指定できます
 ```

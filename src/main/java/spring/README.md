@@ -19,8 +19,8 @@
 
 ## Spring Framework
 
-- [ApplicationContext](src/main/java/spring/practice1/README_practice1.md)
-- [ComponentScanを使ってみよう]()
+- [ApplicationContext](src/main/java/spring/practice1/README.md)
+- [ComponentScanを使ってみよう](src/main/java/spring/practice2/README.md)
 
 
 ## Spring Boot
