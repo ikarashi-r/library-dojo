@@ -12,6 +12,8 @@ public class Main {
 
 		Fuga fuga = context.getBean("fuga", Fuga.class);
 		fuga.getHoge().hoge();
+
+		System.out.println(hoge == fuga.getHoge());
 	}
 
 }
