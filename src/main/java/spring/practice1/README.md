@@ -20,7 +20,7 @@ dependencies {
 ```
 
 ## Springを通してインスタンスを作成する
-1. `src/main/resources`に`applicationContext.xml`を以下の通り作成する
+1. `src/main/resources/spring/practice1`に`applicationContext.xml`を以下の通り作成する
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -40,7 +40,7 @@ dependencies {
 2. Mainクラスを変更する
 ```
 public static void main(String[] args) {
-	ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	ApplicationContext context = new ClassPathXmlApplicationContext("spring/practice1/applicationContext.xml");
 	Hoge hoge = context.getBean("hoge", Hoge.class);
 	hoge.hoge();
 }
@@ -68,7 +68,7 @@ public class Fuga {
 2. Mainクラスを変更する
 ```
 public static void main(String[] args) {
-	ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	ApplicationContext context = new ClassPathXmlApplicationContext("spring/practice1/applicationContext.xml");
 
 	Hoge hoge = context.getBean("hoge", Hoge.class);
 	hoge.hoge();
@@ -133,7 +133,7 @@ public static void main(String[] args) {
 
 ```
 public static void main(String[] args) {
-	ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	ApplicationContext context = new ClassPathXmlApplicationContext("spring/practice1/applicationContext.xml");
 
 	Hoge hoge = context.getBean("hoge", Hoge.class);
 	hoge.hoge();
@@ -146,7 +146,7 @@ public static void main(String[] args) {
 ```
 
 ## `applicationContext.xml`をリファクタリングする
-1. `src/main/resources`に`hoge.xml` と`fuga.xml`を新規作成する
+1. `src/main/resources/spring/practice1`に`hoge.xml` と`fuga.xml`を新規作成する
 
 hoge.xml
 ```
@@ -198,8 +198,8 @@ applicationContext.xml
   http://www.springframework.org/schema/context
   http://www.springframework.org/schema/context/spring-context.xsd">
 
-        <import resource="classpath:hoge.xml" />
-        <import resource="classpath:fuga.xml" />
+        <import resource="classpath:spring/practice1/hoge.xml" />
+        <import resource="classpath:spring/practice1/fuga.xml" />
 
 </beans>
 ```

@@ -7,7 +7,7 @@
   http://www.springframework.org/schema/context
   http://www.springframework.org/schema/context/spring-context.xsd">
 
-        <import resource="classpath:hoge.xml" />
-        <import resource="classpath:fuga.xml" />
+        <import resource="classpath:spring/practice1/hoge.xml" />
+        <import resource="classpath:spring/practice1/fuga.xml" />
 
 </beans>
