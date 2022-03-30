@@ -1,8 +1,13 @@
 # practice2: ComponentScanを使ってみよう
-## 課題
+この課題は[practice1](src/main/java/spring/practice1/README.md)を完了してから取り組んでください
+## 概要
+### 課題
 - ComponentScanを使ったインスタンスの生成
 - インスタンス作成時のフィールドのセット
 - インターフェースを実装してQualifierタグを使う
+
+### ゴール
+- ComponentScanを使ってインスタンスを作成できる
 
 ## 最初の状態
 - MainCs クラス(`src/main/java/spring/practice2/MainCs.java`)と、Mainクラスから呼ばれるHogeCsクラス(`src/main/java/spring/practice2/HogeCs.java`)があります

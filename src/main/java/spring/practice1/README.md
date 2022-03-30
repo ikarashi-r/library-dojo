@@ -1,23 +1,20 @@
 # practice1: ApplicationContext
-## 課題
+## 概要
+### 課題
 - Springを通してインスタンスを作成する
 - インスタンス作成時のフィールドのセット
 - 生成されるインスタンスがシングルトンでなくなるようにする
 - `applicationContext.xml`をリファクタリングする
 
+### ゴール
+- applocationContext.xmlを使ってインスタンスを作成できる
+
+
 ## 最初の状態
 - Main クラス(`src/main/java/spring/practice1/Main.java`)と、Mainクラスから呼ばれるHogeクラス(`src/main/java/spring/practice1/Hoge.java`)があります。
 - mainメソッドを実行すると、Hogeクラスのhoge()が呼ばれ、consoleに"hoge called"が出力されます
 
-## (SetUp) build.gradleへの追記
-`build.gradle`の`dependencies`に以下を追加する
-```xml
-dependencies {
-　　implementation 'org.springframework:spring-core:5.3.7'
-    implementation 'org.springframework:spring-context:5.3.7'
-    implementation 'org.springframework:spring-beans:5.3.7'
-}
-```
+
 
 ## Springを通してインスタンスを作成する
 1. `src/main/resources/spring/practice1`に`applicationContext.xml`を以下の通り作成する
