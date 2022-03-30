@@ -2,10 +2,12 @@
 
 ## 概要
 ### 課題
-- ApplicationContext
-- ComponentScan
-- JdbcDaoSupport
-- Spring Bootを使ってみよう（1h）
+- Spring Framework
+    - ApplicationContext
+    - ComponentScan
+    - JdbcDaoSupport
+- Spring Boot
+    - Spring Bootを使ってみよう（1h）
 
 ### ゴール
 
@@ -13,19 +15,11 @@
 -
 -
 
-## build.gradleへの追記
-`build.gradle`の`dependencies`に以下を追加する
-```xml
-dependencies {
-　　implementation 'org.springframework:spring-core:5.3.7'
-    implementation 'org.springframework:spring-context:5.3.7'
-    implementation 'org.springframework:spring-beans:5.3.7'
-}
-```
+
 
 ## Spring Framework
 
-- [ApplicationContext](src/main/java/spring/README_applicationcontext.md)
+- [ApplicationContext](src/main/java/spring/practice1/README_practice1.md)
 
 
 ## Spring Boot

@@ -102,7 +102,7 @@ public static void main(String[] args) {
 4. 実行してconsoleに"hoge called"が2回出力されることを確認する
 
 ## 生成されるインスタンスがシングルトンでなくなるようにする
-デフォルトで生成されるインスタンスはシングルトンなので、シングルトンでなくなるように変更します。
+デフォルトで生成されるインスタンスはシングルトンなので、シングルトンでなくなるように変更する
 
 1. applicationContext.xml の追記
 
@@ -148,7 +148,7 @@ public static void main(String[] args) {
 ## `applicationContext.xml`をリファクタリングする
 1. `src/main/resources`に`hoge.xml` と`fuga.xml`を新規作成する
 
-`hoge.xml`
+hoge.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -165,7 +165,7 @@ public static void main(String[] args) {
 </beans>
 ```
 
-`fuga.xml`
+fuga.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -187,7 +187,7 @@ public static void main(String[] args) {
 
 作成した`hoge.xml`と`fuga.xml`をimportする形に書き換える
 
-`applicationContext.xml`
+applicationContext.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
