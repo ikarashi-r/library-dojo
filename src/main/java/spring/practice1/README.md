@@ -4,7 +4,7 @@
 - Springを通してインスタンスを作成する
 - インスタンス作成時のフィールドのセット
 - 生成されるインスタンスがシングルトンでなくなるようにする
-- `applicationContext.xml`をリファクタリングする
+- applicationContext.xmlをリファクタリングする
 
 ### ゴール
 - applocationContext.xmlを使ってインスタンスを作成できる
@@ -17,7 +17,7 @@
 
 
 ## Springを通してインスタンスを作成する
-1. `src/main/resources/spring/practice1`に`applicationContext.xml`を以下の通り作成する
+1. `src/main/resources/spring/practice1`にapplicationContext.xmlを以下の通り作成する
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -75,7 +75,7 @@ public static void main(String[] args) {
 }
 ```
 
-3. `applicationContext.xml`にFugaクラスの設定を追記する
+3. applicationContext.xmlにFugaクラスの設定を追記する
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -142,7 +142,7 @@ public static void main(String[] args) {
 }
 ```
 
-## `applicationContext.xml`をリファクタリングする
+## applicationContext.xmlをリファクタリングする
 1. `src/main/resources/spring/practice1`に`hoge.xml` と`fuga.xml`を新規作成する
 
 hoge.xml
