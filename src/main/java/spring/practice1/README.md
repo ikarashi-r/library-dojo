@@ -1,4 +1,4 @@
-# practice1: ApplicationContext
+# practice1: Springを通してインスタンスを作成してみよう
 ## 概要
 ### 課題
 - Springを通してインスタンスを作成する
@@ -202,5 +202,3 @@ applicationContext.xml
 ```
 
 3. mainメソッドの実行結果が変わらないことを確認する
-
-
