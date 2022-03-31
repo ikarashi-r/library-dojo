@@ -2,7 +2,7 @@
 
 ## Spring Framework
 
-- [ApplicationContext](https://github.com/ikarashi-r/library-dojo/blob/82946307eebfe7b7a80486f4e3acea2faa8761bf/src/main/java/spring/practice1/README.md)　(1時間)
+- [Springを通してインスタンスを作成してみよう](https://github.com/ikarashi-r/library-dojo/blob/82946307eebfe7b7a80486f4e3acea2faa8761bf/src/main/java/spring/practice1/README.md)　(1時間)
 - [ComponentScanを使ってみよう](https://github.com/ikarashi-r/library-dojo/blob/82946307eebfe7b7a80486f4e3acea2faa8761bf/src/main/java/spring/practice2/README.md) (45分)
 
 - [Jdbc history](https://github.com/kobain-jp/jdbc-history) (3時間)
