@@ -2,9 +2,9 @@
 
 ## Spring Framework
 
-- [Springを通してインスタンスを作成してみよう](https://github.com/ikarashi-r/library-dojo/tree/main/src/main/java/spring/practice1)　(1時間)
-- [ComponentScanを使ってみよう](https://github.com/ikarashi-r/library-dojo/tree/main/src/main/java/spring/practice2) (45分)
-- [jdbc api使ってみよう](https://github.com/kobain-jp/jdbc-history) (3時間)
+- [Springでインスタンスを作成してみよう(xml)](https://github.com/ikarashi-r/library-dojo/tree/main/src/main/java/spring/practice1)　(1時間)
+- [Springでインスタンスを作成してみよう(ComponentScan)](https://github.com/ikarashi-r/library-dojo/tree/main/src/main/java/spring/practice2) (45分)
+- [SpringでDBアクセスしよう](https://github.com/kobain-jp/jdbc-history) (3時間)
 
 ## Spring Boot
 - [30分～1時間でworldclockを作ろう！！](https://github.com/kobain-jp/world-clock) (1時間)
